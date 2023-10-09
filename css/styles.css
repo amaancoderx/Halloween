@@ -144,7 +144,7 @@ button{
 
 /*=============== HEADER ===============*/
 .header{
-  width: 100%;
+  width: 200%;
   background: var(--body-color); 
   position: fixed;
   top: 0;
@@ -163,7 +163,7 @@ button{
 .nav__logo{
   display: flex;
   align-items: center;
-  column-gap: .5rem;
+  column-gap: .4rem;
   font-weight: var(--font-medium);
 }
 
@@ -199,7 +199,7 @@ button{
 
 .nav__img{
   width: 100px;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
 }
@@ -220,9 +220,9 @@ button{
 }
 
 .nav__link{
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: var(--font-black);
-  transition: .4s;
+  transition: .5s;
 }
 
 .nav__link:hover{
@@ -352,7 +352,7 @@ button{
 .button{
   display: inline-block;
   background-color: var(--first-color);
-  color: var(--title-color);
+  color: blue;
   padding: 1rem 1.75rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
@@ -360,18 +360,18 @@ button{
 }
 
 .button:hover{
-  background-color: var(--first-color-alt);
+  background-color: black;
 }
 
 .button__icon{
-  font-size: 1.25rem;
+  font-size: 2.25rem;
 }
 
 .button--ghost{
-  border: 2px solid;
+  border: 23px solid;
   background-color: transparent;
   border-radius: 3rem;
-  padding: .75rem 1.5rem;
+  padding: .65rem 1.5rem;
 }
 
 .button--ghost:hover{
@@ -428,7 +428,7 @@ button{
 .about__img{
   width: 200px;
   justify-self: center;
-  animation: floating 2s ease-in-out infinite;
+  animation: floating 3.5s ease-in-out infinite;
 }
 
 /*=============== TRICK OR TREAT ===============*/
@@ -588,7 +588,7 @@ button{
 }
 
 .new__content:hover .new__img{
-  transform: translateY(-.5rem);
+  transform: translateY(-.15rem);
 }
 
 .new__content:hover .new__button{
@@ -1008,7 +1008,7 @@ button{
 
 /*=============== KEYFRAMES ===============*/
 @keyframes floating {
-  0% { transform: translate(0,  0px); }
+  0% { transform: translate(0,  10px); }
   50%  { transform: translate(0, 15px); }
   100%   { transform: translate(0, -0px); }   
 }
